@@ -77,7 +77,7 @@
 
             var color = $(this).attr("data-name");
             var apiKey = "mLKvVX1KcYTDE6PtGJLsAKoJiw1LZNeC";
-            var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + color + "&limit=10&api_key=" + apiKey;
+            var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + color + "&limit=10&api_key=" + apiKey;
 
 
             $.ajax({ url: queryUrl, method: "Get" }).then(function (response) {
