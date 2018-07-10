@@ -1,0 +1,11 @@
+
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+.gifs{
+    float: left;
+}
